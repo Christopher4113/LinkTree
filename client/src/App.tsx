@@ -1,9 +1,14 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { ExternalLink, School, NotepadText, Dumbbell, Headphones } from "lucide-react"
+import { ExternalLink, School, NotepadText, Dumbbell, Headphones, Users } from "lucide-react"
 
 const links = [
+  {
+    title: "Mingle",
+    url: "https://mingleai.app",
+    icon: Users,
+  },
   {
     title: "RateMySchools",
     url: "https://www.ratemyschools.org",
